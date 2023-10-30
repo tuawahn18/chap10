@@ -1,0 +1,57 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+h1{
+    color: aqua;
+}
+h3{
+    color: aqua;
+}
+h2{
+    color: aquamarine;
+}
+#my_resume{
+    background-color: blanchedalmond;
+    text-align: center;
+    padding: 80px;
+}
+nav{
+    background-color: darkgrey;
+    padding: 20px;
+    margin: 10px;
+
+}
+nav a{
+    color: white;
+    padding: 15px;
+    display: block;
+    text-align: center;
+    text-decoration: none; 
+}
+nav a:hover{
+    background-color:pink;
+    color:azure;
+}
+#left_side{
+    flex: 40%;
+    background-color: beige;
+    padding: 10px;
+}
+#right_side{
+    flex: 60%;
+    background-color: gainsboro;
+    padding: 10px;
+
+}
+#flex_container{
+    display: flex;
+}
+footer{
+    background-color: darkgrey;
+    color: white;
+    text-align: center;
+}
+footer a{
+    color: lightblue;
+}
